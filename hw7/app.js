@@ -2,9 +2,6 @@ import { Application, Router, send } from "https://deno.land/x/oak/mod.ts";
 
 const app = new Application()
 
-const db = new DB("blog.db");
-db.query("CREATE TABLE IF NOT EXISTS posts (id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT, body TEXT)");
-
 const posts = [
   {id:0, title:'李荷葦', body:'0909116804'},
   {id:1, title:'圖沒你', body:'0910111251'}
