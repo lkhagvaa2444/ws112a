@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> <!--cdnjs的css套件-->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header> 
+    <a href="#" class="logo">Mongolian Grill Restaurant</a> 
+    <nav class="navbar">
+        <a href="#menu">menu</a>
+        <a href="#order">order</a>
+        <a href="http://127.0.0.1:8000/public/#login"> sign out</a>
+    </nav>
+</header>
+
+<section class="menu" id="menu">
+    <h3 class="menu-title"></h3>
+    <div class="box-container">
+        <div class="box">
+            <div>
+                <img class="box-image" src="image/khorkhog.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="content1">
+                    <h3 class="box-name">khorkhog</h3>
+                    <span class="box-price">5000₮</span><br>
+                </div>
+                <button class="dsbnt1" type="button">add to cart</button>              
+            </div>
+        </div>
+
+        <div class="box">
+            <div>
+                <img class="box-image" src="image/boodog.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="content1">
+                    <h3 class="box-name">boodog</h3>
+                    <span class="box-price">5500₮</span><br>
+                </div>
+                <button class="dsbnt1" type="button">add to cart</button>              
+            </div>
+        </div>
+
+        <div class="box">
+            <div>
+                <img class="box-image" src="image/shorlog.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="content1">
+                    <h3 class="box-name">shorlog</h3>
+                    <span class="box-price">6000₮</span><br>
+                </div>
+                <button class="dsbnt1" type="button">add to cart</button>              
+            </div>
+        </div>
+
+        <div class="box">
+            <div>
+                <img class="box-image" src="image/khuushuur.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="content1">
+                    <h3 class="box-name">khuushuur</h3>
+                    <span class="box-price">2000₮</span><br>
+                </div>
+                <button class="dsbnt1" type="button">add to cart</button>              
+            </div>
+        </div>
+
+        <div class="box">
+            <div>
+                <img class="box-image" src="image/buuz.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="content1">
+                    <h3 class="box-name">buuz</h3>
+                    <span class="box-price">1500₮</span><br>
+                </div>
+                <button class="dsbnt1" type="button">add to cart</button>              
+            </div>
+        </div>
+
+        <div class="box">
+            <div>
+                <img class="box-image" src="image/guriltai shol.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="content1">
+                    <h3 class="box-name">guriltai shol</h3>
+                    <span class="box-price">4000₮</span><br>
+                </div>
+                <button class="dsbnt1" type="button">add to cart</button>              
+            </div>
+        </div>
+
+        <div class="box">
+            <div>
+                <img class="box-image" src="image/bantan.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="content1">
+                    <h3 class="box-name">bantan</h3>
+                    <span class="box-price">4000₮</span><br>
+                </div>
+                <button class="dsbnt1" type="button">add to cart</button>              
+            </div>
+        </div>
+
+        <div class="box">
+            <div>
+                <img class="box-image" src="image/tsuivan.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="content1">
+                    <h3 class="box-name">tsuivan</h3>
+                    <span class="box-price">6500₮</span><br>
+                </div>
+                <button class="dsbnt1" type="button">add to cart</button>              
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container content-section" id="order">
+    <h2 class="section-header">order</h2>
+    <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items">
+    </div>
+    <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">0₮</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">purchase</button>
+</section>
+    
+<script src="index_js.js"></script>
+<script src="option.js"></script>
+</body>
+</html>
